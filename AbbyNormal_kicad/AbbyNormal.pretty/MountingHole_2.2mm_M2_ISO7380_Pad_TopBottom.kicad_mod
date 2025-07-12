@@ -1,0 +1,103 @@
+(footprint "MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.2mm, M2, ISO7380")
+	(tags "mounting hole 2.2mm m2 iso7380")
+	(property "Reference" "REF**"
+		(at 0 -2.75 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "343a0dae-f39f-4129-95f3-c561512ca520")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom"
+		(at 0 2.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c23365e-5345-4a76-9db6-3ae57850db65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e0c2d88-4e5d-4ed7-8f2f-7dfadab3001f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e415f74c-42f2-4b00-bf19-7560e2e18290")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 1.75 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "017048d8-af57-4333-a562-ec355f844deb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "71c439ec-48e7-47ca-97e6-0e54b4cdbcdd")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.6 2.6)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9399391c-94b8-4658-9ebb-898455cfffb7")
+	)
+	(pad "1" connect circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "c0ee7f9e-03b0-463d-a8ff-a5a9593af2e2")
+	)
+	(pad "1" connect circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(layers "B.Cu" "B.Mask")
+		(uuid "c3e04c3f-3f5d-477f-80e0-b880e84163cf")
+	)
+	(embedded_fonts no)
+)
